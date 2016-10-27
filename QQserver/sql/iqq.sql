@@ -61,8 +61,8 @@ CREATE TABLE `friends` (
 -- ----------------------------
 -- Records of friends
 -- ----------------------------
-INSERT INTO `friends` VALUES ('1', '434461146', '谢东', '3', '2014-12-15', 'no', '935670071');
-INSERT INTO `friends` VALUES ('2', '935670071', 'null', '1', '2014-12-15', 'no', '434461146');
+INSERT INTO `friends` VALUES ('1', '434461234', '啊啊啊', '3', '2014-12-15', 'no', '935672344');
+INSERT INTO `friends` VALUES ('2', '935672344', 'null', '1', '2014-12-15', 'no', '434461234');
 
 -- ----------------------------
 -- Table structure for `grouptable`
@@ -78,7 +78,7 @@ CREATE TABLE `grouptable` (
 -- ----------------------------
 -- Records of grouptable
 -- ----------------------------
-INSERT INTO `grouptable` VALUES ('1', '湖南城市学院1106', '2014-12-16');
+INSERT INTO `grouptable` VALUES ('1', '社会大学1203', '2014-12-16');
 
 -- ----------------------------
 -- Table structure for `login`
@@ -99,8 +99,8 @@ CREATE TABLE `login` (
 -- ----------------------------
 -- Records of login
 -- ----------------------------
-INSERT INTO `login` VALUES ('1', '127.0.0.1', '65085', '2015-03-21 11:36', 'no', '434461146');
-INSERT INTO `login` VALUES ('2', '127.0.0.1', '65059', '2015-03-21 11:34', 'no', '935670071');
+INSERT INTO `login` VALUES ('1', '127.0.0.1', '65085', '2015-03-21 11:36', 'no', '434461234');
+INSERT INTO `login` VALUES ('2', '127.0.0.1', '65059', '2015-03-21 11:34', 'no', '935672344');
 
 -- ----------------------------
 -- Table structure for `subgroup`
@@ -119,10 +119,10 @@ CREATE TABLE `subgroup` (
 -- ----------------------------
 -- Records of subgroup
 -- ----------------------------
-INSERT INTO `subgroup` VALUES ('1', '我的好友', '2014-12-15', '434461146');
-INSERT INTO `subgroup` VALUES ('2', '黑名单', '2014-12-15', '434461146');
-INSERT INTO `subgroup` VALUES ('3', '我的好友', '2014-12-15', '935670071');
-INSERT INTO `subgroup` VALUES ('4', '黑名单', '2014-12-15', '935670071');
+INSERT INTO `subgroup` VALUES ('1', '我的好友', '2014-12-15', '434461234');
+INSERT INTO `subgroup` VALUES ('2', '黑名单', '2014-12-15', '434461234');
+INSERT INTO `subgroup` VALUES ('3', '我的好友', '2014-12-15', '935672344');
+INSERT INTO `subgroup` VALUES ('4', '黑名单', '2014-12-15', '935672344');
 
 -- ----------------------------
 -- Table structure for `text`
@@ -159,8 +159,8 @@ CREATE TABLE `user_group` (
 -- ----------------------------
 -- Records of user_group
 -- ----------------------------
-INSERT INTO `user_group` VALUES ('1', '434461146', '1');
-INSERT INTO `user_group` VALUES ('2', '935670071', '1');
+INSERT INTO `user_group` VALUES ('1', '434461234', '1');
+INSERT INTO `user_group` VALUES ('2', '935672344', '1');
 
 -- ----------------------------
 -- Table structure for `userinfo`
@@ -188,5 +188,5 @@ CREATE TABLE `userinfo` (
 -- ----------------------------
 -- Records of userinfo
 -- ----------------------------
-INSERT INTO `userinfo` VALUES ('434461146', '666666', '我很温柔，我很萌。哇卡卡', '003', '薛定谔的猫啦~', '女', null, null, null, null, null, null, null, 'qqLogin', 'qqLogin');
-INSERT INTO `userinfo` VALUES ('935670071', '666666', null, '002', '、小样', '男', null, null, null, null, null, null, null, 'qqLogin', '11');
+INSERT INTO `userinfo` VALUES ('434461234', '666666', '我很温柔，我很萌。哇卡卡', '003', '薛定谔的猫啦~', '女', null, null, null, null, null, null, null, 'qqLogin', 'qqLogin');
+INSERT INTO `userinfo` VALUES ('935672344', '666666', null, '002', '、小样', '男', null, null, null, null, null, null, null, 'qqLogin', '11');
